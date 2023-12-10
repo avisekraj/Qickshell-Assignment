@@ -1,0 +1,50 @@
+.header{
+    padding: 20px 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -10px;
+    left: -10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.downIcon{
+    cursor: pointer;
+}
+.display-dropdown{
+    width: fit-content;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    display: flex;
+    padding: 2px 8px;
+
+}
+.grouping-dropdown{
+    display: flex;
+    color: grey;
+    width: 200px;
+    padding: 4px 8px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    background: beige;
+    justify-content: space-between;
+    top: 50px;
+    position: absolute;
+}
+.grouping-options{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgb(155, 155, 155);
+    display: flex;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 50px;
+    justify-content: space-around;
+}
+.subDrop{
+    color: gray;
+}
+

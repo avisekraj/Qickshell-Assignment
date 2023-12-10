@@ -1,0 +1,52 @@
+/* src/Card.css */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card {
+    /* border: 1px solid #000000; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgb(137, 137, 137);
+    padding: 3%;
+    overflow: hidden;
+    margin: 16px;
+    width: 270px;
+  }
+  
+.headerId{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.idName{
+    color: grey;
+    text-transform: capitalize;
+    font-weight: 100;
+    
+}
+.profilePic{
+    overflow: hidden;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.title{
+    text-transform: capitalize;
+}
+.solidCircle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: grey;
+    margin: 5px;
+}
+.tag {
+    display: inline-flex;
+    position: relative;
+    border: 0.5px solid gray;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+  
